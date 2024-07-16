@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Niks\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\.cxx\\Debug\\4g1v1vl5\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Niks\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\.cxx\\Debug\\4g1v1vl5\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "audioEngine::@6890427a1f51a3e7e1df": {
+      "artifactName": "audioEngine",
+      "abi": "x86",
+      "output": "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\build\\intermediates\\cxx\\Debug\\4g1v1vl5\\obj\\x86\\libaudioEngine.so",
+      "runtimeFiles": [
+        "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\tf-lite-api\\generated-libs\\x86\\libtensorflowlite.so"
+      ]
+    }
+  }
+}

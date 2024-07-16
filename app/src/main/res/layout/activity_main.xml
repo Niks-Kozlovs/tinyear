@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_transcribe_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transcribe Audio File"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/button_live_transcribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Transcribe"
+        android:layout_below="@id/button_transcribe_audio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_live_commands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Commands"
+        android:layout_below="@id/button_live_transcribe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/button_commands_wakeword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commands with Wakeword"
+        android:layout_below="@id/button_live_commands"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+C:\Users\Niks\Desktop\TinyEarApp\TinyVoiceLib\src\main\cpp\CMakeLists.txt

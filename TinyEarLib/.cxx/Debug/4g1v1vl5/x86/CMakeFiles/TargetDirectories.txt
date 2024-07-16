@@ -1,0 +1,3 @@
+C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/.cxx/Debug/4g1v1vl5/x86/CMakeFiles/audioEngine.dir
+C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/.cxx/Debug/4g1v1vl5/x86/CMakeFiles/edit_cache.dir
+C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/.cxx/Debug/4g1v1vl5/x86/CMakeFiles/rebuild_cache.dir

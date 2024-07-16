@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/wakewordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Wakeword"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/timeRemainingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/wakewordTextView"
+        android:layout_marginStart="8dp"
+        android:text="10s"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/speakingStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Not Speaking"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+# ninja log v5
+0	2078	7383375587638227	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	ea436d7be50712f8
+6	7163	7383375638443695	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	ca735e9db94fb466
+7164	7248	7383375639403714	C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/build/intermediates/cxx/Debug/4g1v1vl5/obj/arm64-v8a/libaudioEngine.so	8f546c5de16c3f13

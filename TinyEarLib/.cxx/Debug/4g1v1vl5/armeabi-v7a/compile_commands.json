@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/.cxx/Debug/4g1v1vl5/armeabi-v7a",
+  "command": "C:\\Users\\Niks\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.11718014\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/Niks/AppData/Local/Android/Sdk/ndk/27.0.11718014/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DaudioEngine_EXPORTS -IC:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/src/main/cpp/tf-lite-api/tensorflow_src -IC:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/src/main/cpp/tf-lite-api/include/flatbuffers/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\audioEngine.dir\\TFLiteEngine.cpp.o -c C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\TFLiteEngine.cpp",
+  "file": "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\TFLiteEngine.cpp"
+},
+{
+  "directory": "C:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/.cxx/Debug/4g1v1vl5/armeabi-v7a",
+  "command": "C:\\Users\\Niks\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.11718014\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/Niks/AppData/Local/Android/Sdk/ndk/27.0.11718014/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DaudioEngine_EXPORTS -IC:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/src/main/cpp/tf-lite-api/tensorflow_src -IC:/Users/Niks/Desktop/TinyEarApp/TinyVoiceLib/src/main/cpp/tf-lite-api/include/flatbuffers/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\audioEngine.dir\\TFLiteEngineJNI.cpp.o -c C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\TFLiteEngineJNI.cpp",
+  "file": "C:\\Users\\Niks\\Desktop\\TinyEarApp\\TinyVoiceLib\\src\\main\\cpp\\TFLiteEngineJNI.cpp"
+}
+]
