@@ -45,7 +45,7 @@ class TranscribeAudioActivity : AppCompatActivity() {
 
             progressBar.visibility = View.VISIBLE
 
-            // Simulate the transcription process using a background thread
+            // Transcribe the audio on seperate thread.
             Thread {
                 val transcription = speechRecognizer.transcribeAudio(wavFilePath)
 
@@ -57,19 +57,9 @@ class TranscribeAudioActivity : AppCompatActivity() {
             }.start()
         }
 
-        val files = ArrayList<String>()
-        try {
-            val assetFiles = assets.list("")
-            for (file in assetFiles!!) {
-                if (file.endsWith(".wav")) files.add(file)
-            }
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
-        val fileArray = arrayOfNulls<String>(files.size)
-        files.toArray(fileArray)
+        val files = getAssetFiles();
         val adapter: ArrayAdapter<String> =
-            ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, fileArray)
+            ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, files)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -80,12 +70,26 @@ class TranscribeAudioActivity : AppCompatActivity() {
                 id: Long
             ) {
                 if (parent == null) return
-                waveFileName[0] = fileArray[position]
+                waveFileName[0] = files[position]
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
             }
         }
+    }
+
+    private fun getAssetFiles(): Array<String> {
+        val files = ArrayList<String>()
+        try {
+            val assetFiles = assets.list("")
+            for (file in assetFiles!!) {
+                if (file.endsWith(".wav")) files.add(file)
+            }
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+
+        return files.toTypedArray()
     }
 
     private fun getFilePath(assetName: String): String {

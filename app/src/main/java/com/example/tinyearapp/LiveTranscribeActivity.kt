@@ -43,6 +43,11 @@ class LiveTranscribeActivity : AppCompatActivity() {
         }
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        speechRecognizer.stopListening()
+    }
+
     private fun initializeSpeechRecognizer() {
         val modelPath = getFilePath("whisper-tiny-en.tflite")
         speechRecognizer = TinySpeechRecognizer(modelPath, false, object : HypothesisListener {

@@ -24,6 +24,11 @@ class LiveCommandsActivity : AppCompatActivity() {
         initializeCommandCenter()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        commandCenter.stopListening()
+    }
+
     private fun initializeFragments() {
         transcriptionFragment = TranscriptionFragment()
         speechStatusFragment = SpeechStatusFragment.newInstance(null)
